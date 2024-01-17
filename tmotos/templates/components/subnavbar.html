@@ -1,0 +1,16 @@
+{{ define "subnavbar" }}
+{{ $context := . }}
+<link rel="stylesheet" href="/files/subnavbar.css">
+
+<div class="subnavbar">
+    <ul class="subnav-links container flex">
+        {{range $url, $value := $context.NavLinks}}
+            {{if eq $url $context.SelectedLink}}
+                <li class="active"><a href="/loja/{{$url}}">{{$value}}</a></li>
+            {{else}}
+                <li><a href="/loja/{{$url}}">{{$value}}</a></li>
+            {{end}}
+        {{end}}
+    </ul>
+</div>
+{{ end }}

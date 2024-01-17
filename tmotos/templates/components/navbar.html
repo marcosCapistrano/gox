@@ -1,0 +1,15 @@
+{{ define "navbar" }}
+{{ $context := . }}
+<link rel="stylesheet" href="/files/navbar.css">
+<header>
+    <nav class="container flex">
+        <img src="/files/logo/logo-big.png" alt="">
+        <ul class="nav-links flex">
+        {{range $url, $value := $context.NavLinks}}
+            <li><a href="/{{$url}}">{{$value}}</a></li>
+        {{end}}
+        </ul>
+        <div class="avatar"></div>
+    </nav>
+</header>
+{{ end }}

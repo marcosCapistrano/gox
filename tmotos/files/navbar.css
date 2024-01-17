@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+
+}
+
+nav {
+    align-items: center;
+    padding: 14px 0px;
+}
+
+.nav-links {
+    flex: 1;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    list-style: none;
+    gap: 2em;
+    padding-left: 4rem;
+}
+
+.avatar {
+    border-radius: 100%;
+    background-color: lightgrey;
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,8 @@
+{
+    "logging": {
+        "level": "debug"
+    },
+    "files": {
+        "path": "files"
+    }
+}

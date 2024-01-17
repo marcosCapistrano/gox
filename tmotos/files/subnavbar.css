@@ -1,0 +1,23 @@
+.subnavbar {
+    background-color: #FAD60D;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.subnav-links {
+    flex: 1;
+
+    font-weight: 500;
+    color: black;
+    list-style: none;
+    gap: 1em;
+}
+
+.subnav-links li {
+    padding: .75em 0;
+    min-width: 10ch;
+    text-align: center;
+}
+
+.subnav-links li.active {
+    border-bottom: 2px solid black;
+}

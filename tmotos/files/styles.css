@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1366px;
+    padding-inline: 2%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
